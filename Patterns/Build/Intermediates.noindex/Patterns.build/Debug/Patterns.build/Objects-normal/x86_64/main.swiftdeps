@@ -1,11 +1,50 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "producer"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
+- "FactoryProducer"
+- "producer"
 depends-member:
+- ["8Patterns15AbstractFactoryC", "getColor"]
+- ["8Patterns15AbstractFactoryC", "getShape"]
+- ["8Patterns5ColorP", "fill"]
+- ["8Patterns6ColorsO", "blue"]
+- ["8Patterns6ColorsO", "green"]
+- ["s9EquatableP", "blue"]
+- ["s9EquatableP", "color"]
+- ["s9EquatableP", "green"]
+- ["s9EquatableP", "rectangle"]
+- ["s9EquatableP", "shape"]
+- ["s9EquatableP", "square"]
+- ["8Patterns15FactoryProducerC", "getFactory"]
+- ["s8HashableP", "blue"]
+- ["s8HashableP", "color"]
+- ["s8HashableP", "green"]
+- ["s8HashableP", "rectangle"]
+- ["s8HashableP", "shape"]
+- ["s8HashableP", "square"]
+- ["8Patterns7OptionsO", "color"]
+- ["8Patterns7OptionsO", "shape"]
+- ["s16RawRepresentableP", "color"]
+- ["s16RawRepresentableP", "shape"]
+- ["8Patterns5ShapeP", "draw"]
+- ["8Patterns6ShapesO", "rectangle"]
+- ["8Patterns6ShapesO", "square"]
 depends-nominal:
+- "8Patterns15AbstractFactoryC"
+- "8Patterns5ColorP"
+- "8Patterns6ColorsO"
+- "s9EquatableP"
+- "8Patterns15FactoryProducerC"
+- "s8HashableP"
+- "8Patterns7OptionsO"
+- "s16RawRepresentableP"
+- "8Patterns5ShapeP"
+- "8Patterns6ShapesO"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
@@ -23,4 +62,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "d9489e803b958e0221e7b2b08bacc72f"

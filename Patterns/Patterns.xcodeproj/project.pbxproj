@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1540278321341959003C2663 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1540278221341959003C2663 /* main.swift */; };
+		1540279221341E5C003C2663 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1540279121341E5C003C2663 /* Shape.swift */; };
+		1540279421341ED5003C2663 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1540279321341ED5003C2663 /* Rectangle.swift */; };
+		1540279621341F15003C2663 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1540279521341F15003C2663 /* Square.swift */; };
+		1540279821341F53003C2663 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1540279721341F53003C2663 /* Circle.swift */; };
+		1540279A2134202D003C2663 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154027992134202D003C2663 /* Color.swift */; };
+		1540279E2134206C003C2663 /* Red.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1540279D2134206C003C2663 /* Red.swift */; };
+		154027A2213420B7003C2663 /* Blue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154027A1213420B7003C2663 /* Blue.swift */; };
+		154027A4213420D0003C2663 /* Green.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154027A3213420D0003C2663 /* Green.swift */; };
+		154027A721342127003C2663 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154027A621342127003C2663 /* AbstractFactory.swift */; };
+		154027A92134270C003C2663 /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154027A82134270C003C2663 /* ShapeFactory.swift */; };
+		154027AB21342CBC003C2663 /* ColorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154027AA21342CBC003C2663 /* ColorFactory.swift */; };
+		154027AE2134357B003C2663 /* FactoryProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154027AD2134357B003C2663 /* FactoryProducer.swift */; };
+		154027B121343797003C2663 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154027B021343797003C2663 /* Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,19 @@
 /* Begin PBXFileReference section */
 		1540277F21341959003C2663 /* Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		1540278221341959003C2663 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1540279121341E5C003C2663 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		1540279321341ED5003C2663 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		1540279521341F15003C2663 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		1540279721341F53003C2663 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		154027992134202D003C2663 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1540279D2134206C003C2663 /* Red.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red.swift; sourceTree = "<group>"; };
+		154027A1213420B7003C2663 /* Blue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue.swift; sourceTree = "<group>"; };
+		154027A3213420D0003C2663 /* Green.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green.swift; sourceTree = "<group>"; };
+		154027A621342127003C2663 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		154027A82134270C003C2663 /* ShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeFactory.swift; sourceTree = "<group>"; };
+		154027AA21342CBC003C2663 /* ColorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFactory.swift; sourceTree = "<group>"; };
+		154027AD2134357B003C2663 /* FactoryProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProducer.swift; sourceTree = "<group>"; };
+		154027B021343797003C2663 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +83,118 @@
 		1540278121341959003C2663 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				1540278B21341B47003C2663 /* Creational */,
+				1540278A21341B46003C2663 /* Structural */,
+				1540278921341B40003C2663 /* Behavioral */,
 				1540278221341959003C2663 /* main.swift */,
 			);
 			path = Patterns;
+			sourceTree = "<group>";
+		};
+		1540278921341B40003C2663 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		1540278A21341B46003C2663 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		1540278B21341B47003C2663 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				1540278F21341BFA003C2663 /* AbstractFactory */,
+				1540279021341C33003C2663 /* Singleton */,
+				1540278E21341BF9003C2663 /* Builder */,
+				1540278D21341BF7003C2663 /* FactoryMethod */,
+				1540278C21341BF5003C2663 /*  Prototype */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		1540278C21341BF5003C2663 /*  Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = " Prototype";
+			sourceTree = "<group>";
+		};
+		1540278D21341BF7003C2663 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		1540278E21341BF9003C2663 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		1540278F21341BFA003C2663 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				154027AF2134378E003C2663 /* Enum */,
+				1540279B21342034003C2663 /* Shape */,
+				1540279C21342041003C2663 /* Color */,
+				154027AC21343537003C2663 /* Factories */,
+				154027AD2134357B003C2663 /* FactoryProducer.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		1540279021341C33003C2663 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		1540279B21342034003C2663 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				1540279121341E5C003C2663 /* Shape.swift */,
+				1540279321341ED5003C2663 /* Rectangle.swift */,
+				1540279521341F15003C2663 /* Square.swift */,
+				1540279721341F53003C2663 /* Circle.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		1540279C21342041003C2663 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				154027992134202D003C2663 /* Color.swift */,
+				1540279D2134206C003C2663 /* Red.swift */,
+				154027A3213420D0003C2663 /* Green.swift */,
+				154027A1213420B7003C2663 /* Blue.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		154027AC21343537003C2663 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				154027A621342127003C2663 /* AbstractFactory.swift */,
+				154027A82134270C003C2663 /* ShapeFactory.swift */,
+				154027AA21342CBC003C2663 /* ColorFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		154027AF2134378E003C2663 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				154027B021343797003C2663 /* Enum.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +254,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154027AB21342CBC003C2663 /* ColorFactory.swift in Sources */,
+				1540279821341F53003C2663 /* Circle.swift in Sources */,
+				1540279621341F15003C2663 /* Square.swift in Sources */,
+				154027A721342127003C2663 /* AbstractFactory.swift in Sources */,
+				154027B121343797003C2663 /* Enum.swift in Sources */,
+				1540279421341ED5003C2663 /* Rectangle.swift in Sources */,
+				154027AE2134357B003C2663 /* FactoryProducer.swift in Sources */,
 				1540278321341959003C2663 /* main.swift in Sources */,
+				1540279221341E5C003C2663 /* Shape.swift in Sources */,
+				154027A4213420D0003C2663 /* Green.swift in Sources */,
+				154027A2213420B7003C2663 /* Blue.swift in Sources */,
+				154027A92134270C003C2663 /* ShapeFactory.swift in Sources */,
+				1540279E2134206C003C2663 /* Red.swift in Sources */,
+				1540279A2134202D003C2663 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

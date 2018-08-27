@@ -1,5 +1,18 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "98516ae485bac98f549ef84da978a8e4"
-build_time: [1535369751, 752827000]
+build_time: [1535377963, 584268000]
 inputs:
-  "/Users/abait/Desktop/Patterns/Patterns/Patterns/main.swift": [1535369751, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Factories/ColorFactory.swift": [1535377415, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Shape/Circle.swift": [1535374506, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Shape/Square.swift": [1535371207, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Factories/AbstractFactory.swift": [1535377412, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Enum/Enum.swift": [1535377450, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Shape/Rectangle.swift": [1535374480, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/FactoryProducer.swift": [1535377467, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/main.swift": [1535377963, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Shape/Shape.swift": [1535371076, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Color/Green.swift": [1535371611, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Color/Blue.swift": [1535371589, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Factories/ShapeFactory.swift": [1535376590, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Color/Red.swift": [1535371616, 0]
+  "/Users/abait/Desktop/Patterns/Patterns/Patterns/Creational/AbstractFactory/Color/Color.swift": [1535371489, 0]
