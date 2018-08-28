@@ -1,15 +1,34 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "producer"
+- "builder"
+- "vegMeal"
+- "noneVegMeal"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "??"
+- "AssignmentPrecedence"
+- "FactoryProducer"
+- "FloatLiteralType"
+- "MealBuilder"
+- "SingleObject"
 - "StringLiteralType"
+- "builder"
+- "noneVegMeal"
 - "print"
+- "producer"
+- "vegMeal"
 depends-member:
+- ["8Patterns15AbstractFactoryC", "getColor"]
+- ["8Patterns15AbstractFactoryC", "getShape"]
 - ["s23BidirectionalCollectionP", "init"]
 - ["s7CVarArgP", "init"]
 - ["s10CollectionP", "init"]
+- ["8Patterns5ColorP", "fill"]
+- ["8Patterns6ColorsO", "blue"]
+- ["8Patterns6ColorsO", "green"]
 - ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
@@ -17,15 +36,43 @@ depends-member:
 - ["s23CustomStringConvertibleP", "init"]
 - ["s9DecodableP", "init"]
 - ["s9EncodableP", "init"]
+- ["s9EquatableP", "blue"]
+- ["s9EquatableP", "color"]
+- ["s9EquatableP", "green"]
 - ["s9EquatableP", "init"]
+- ["s9EquatableP", "rectangle"]
+- ["s9EquatableP", "shape"]
+- ["s9EquatableP", "square"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["8Patterns15FactoryProducerC", "getFactory"]
+- ["s8HashableP", "blue"]
+- ["s8HashableP", "color"]
+- ["s8HashableP", "green"]
 - ["s8HashableP", "init"]
+- ["s8HashableP", "rectangle"]
+- ["s8HashableP", "shape"]
+- ["s8HashableP", "square"]
 - ["s25LosslessStringConvertibleP", "init"]
+- ["8Patterns4MealC", "getCost"]
+- ["8Patterns4MealC", "showItems"]
+- ["8Patterns11MealBuilderC", "init"]
+- ["8Patterns11MealBuilderC", "prepareNoneVegMeal"]
+- ["8Patterns11MealBuilderC", "prepareVegMeal"]
 - ["s10MirrorPathP", "init"]
+- ["8Patterns7OptionsO", "color"]
+- ["8Patterns7OptionsO", "shape"]
 - ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "color"]
+- ["s16RawRepresentableP", "shape"]
 - ["s8SequenceP", "init"]
+- ["8Patterns5ShapeP", "draw"]
+- ["8Patterns6ShapesO", "rectangle"]
+- ["8Patterns6ShapesO", "square"]
+- ["8Patterns12SingleObjectC", "getInstance"]
+- ["8Patterns12SingleObjectC", "shared"]
+- ["8Patterns12SingleObjectC", "showMessage"]
 - ["SS", "init"]
 - ["s14StringProtocolP", "init"]
 - ["s16TextOutputStreamP", "init"]
@@ -38,9 +85,12 @@ depends-member:
 - ["s21_ObjectiveCBridgeableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- "8Patterns15AbstractFactoryC"
 - "s23BidirectionalCollectionP"
 - "s7CVarArgP"
 - "s10CollectionP"
+- "8Patterns5ColorP"
+- "8Patterns6ColorsO"
 - "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
@@ -52,11 +102,19 @@ depends-nominal:
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
+- "8Patterns15FactoryProducerC"
 - "s8HashableP"
 - "s25LosslessStringConvertibleP"
+- "8Patterns4MealC"
+- "8Patterns11MealBuilderC"
 - "s10MirrorPathP"
+- "8Patterns7OptionsO"
 - "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
 - "s8SequenceP"
+- "8Patterns5ShapeP"
+- "8Patterns6ShapesO"
+- "8Patterns12SingleObjectC"
 - "SS"
 - "s14StringProtocolP"
 - "s16TextOutputStreamP"
@@ -85,4 +143,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "a1e97b5c750ad560cebb9856a2e89b73"
+interface-hash: "1dcb01b0133861c2782975f831fa2a53"
