@@ -14,17 +14,16 @@ enum Colors {
     
     var color : String {
         switch self {
+        case .none:
+            return ""
         case .red :
             return "red"
         case .green:
             return "green"
         case .blue:
             return "blue"
-        case .none:
-            return ""
         }
     }
-    
 }
 
 enum Shapes {

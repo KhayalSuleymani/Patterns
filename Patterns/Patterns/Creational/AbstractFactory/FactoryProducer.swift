@@ -9,7 +9,6 @@
 import Foundation
 
 class FactoryProducer {
-    
     static func getFactory (option:Options) -> AbstractFactory {
         switch option {
         case .color:
@@ -18,7 +17,4 @@ class FactoryProducer {
             return ShapeFactory()
         }
     }
-    
 }
-
-

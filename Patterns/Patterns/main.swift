@@ -11,6 +11,8 @@ import Foundation
 
 //                  RESULTS
 
+//                 ABSTRACT FACTORY
+
 // 1
 var producer = FactoryProducer.getFactory(option:.shape)
 producer.getColor(color: .blue)?.fill()
@@ -21,9 +23,9 @@ producer = FactoryProducer.getFactory(option: .color)
 producer.getColor(color: .green)?.fill()
 producer.getShape(shape: .square)?.draw()
 
-
-
-
+//                   SINGLETON
+SingleObject.shared.showMessage()
+SingleObject.getInstance.showMessage()
 
 
 
